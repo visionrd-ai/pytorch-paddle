@@ -1,4 +1,4 @@
-# PaddleOCR Model Conversion to PyTorch
+# Paddle2PyTorch: Train & Test PaddleOCR models in PyTorch
 
 This repository re-implements PaddleOCR's latest OCR models in PyTorch, removing dependency from Paddle as a framework and providing more configurability and insight into the training pipeline. It aims to recreate the original performance and structure of PaddleOCR models in PyTorch, allowing for easier integration and experimentation within PyTorch-based pipelines. The project includes model configurations, dataset management, and training/evaluation scripts.
 
