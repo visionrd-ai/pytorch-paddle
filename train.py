@@ -25,7 +25,6 @@ args = parser.parse_args()
 run_name = args.run_name or datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 run_dir = os.path.join("runs", run_name)
 os.makedirs(run_dir, exist_ok=True)
-
 config = load_config('data/config.json')
 with open(os.path.join(run_dir, 'config.json'), 'w') as config_file:
     json.dump(config, config_file, indent=4)
